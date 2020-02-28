@@ -10,5 +10,16 @@ pattern whatever the scale.
 ````
 >$ make
 >$ ./fractol julia
+(Inside the program press 'H' to open a help screen with instructions on how to use it)
 ````
+![alt text](https://github.com/khakala96/fractol/blob/master/pictures/julia_fractal.png)
 
+````
+The mandelbrot fractal:
+````
+![alt text](https://github.com/khakala96/fractol/blob/master/pictures/fractol_mandelbrot.png)
+
+````
+The burningship fractal:
+````
+![alt text](https://github.com/khakala96/fractol/blob/master/pictures/fractol_burningship.png)
