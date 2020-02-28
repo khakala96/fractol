@@ -6,7 +6,7 @@
 /*   By: khakala <khakala@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 12:06:38 by khakala           #+#    #+#             */
-/*   Updated: 2020/02/26 12:36:10 by khakala          ###   ########.fr       */
+/*   Updated: 2020/02/28 11:36:12 by khakala          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,6 +91,6 @@ void	help_screen(t_fractol *data)
 
 int		ft_close(void)
 {
-	exit(1);
+	exit(EXIT_SUCCESS);
 	return (0);
 }

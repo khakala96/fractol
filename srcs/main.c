@@ -6,7 +6,7 @@
 /*   By: khakala <khakala@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 11:30:15 by khakala           #+#    #+#             */
-/*   Updated: 2020/02/25 11:32:11 by khakala          ###   ########.fr       */
+/*   Updated: 2020/02/28 11:37:53 by khakala          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,9 +61,9 @@ int		choose_fractal(t_fractol *data, char **av)
 	else
 	{
 		ft_putendl("Error usage ./fractol julia/mandelbrot/burningship");
-		return (0);
+		return (1);
 	}
-	return (1);
+	return (0);
 }
 
 int		main(int ac, char **av)
@@ -76,10 +76,10 @@ int		main(int ac, char **av)
 	if (ac != 2)
 	{
 		ft_putendl("Error usage ./fractol julia/mandelbrot/burningship");
-		exit(-1);
+		exit(EXIT_FAILURE);
 	}
 	mlx_window_init(data, minilibx);
-	if (choose_fractal(data, av) == 0)
+	if (choose_fractal(data, av) == 1)
 		return (0);
 	initialize_fractal(data);
 	mlx_hook(data->win, 6, 0, mouse_julia, data);
