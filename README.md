@@ -7,3 +7,8 @@ A fractal is an abstract mathematical object, like a curve or a surface, which h
 pattern whatever the scale.
 ````
 ### How to use
+````
+>$ make
+>$ ./fractol julia
+````
+
