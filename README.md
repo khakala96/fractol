@@ -15,11 +15,11 @@ pattern whatever the scale.
 ![alt text](https://github.com/khakala96/fractol/blob/master/pictures/julia_fractal.png)
 
 ````
-The mandelbrot fractal:
+>$ ./fractol mandelbrot
 ````
 ![alt text](https://github.com/khakala96/fractol/blob/master/pictures/fractol_mandelbrot.png)
 
 ````
-The burningship fractal:
+>$ ./fractol burningship
 ````
 ![alt text](https://github.com/khakala96/fractol/blob/master/pictures/fractol_burningship.png)
